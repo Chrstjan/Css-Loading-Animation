@@ -7,7 +7,7 @@
   }
 }
 
-@keyframes loadingProgress {
+@keyframes loadingDashed {
   0% {
     border-top: 10px dashed #333;
   }
@@ -52,7 +52,7 @@
   padding: 7rem;
   border-top: 10px solid #333;
   border-radius: 50%;
-  animation: loadingSpin 1s forwards ease-in-out infinite;
+  animation: loadingSpin 1.4s linear infinite;
 }
 
 .loading-bar-two {
@@ -60,5 +60,5 @@
   padding: 7rem;
   border-top: 10px dashed #333;
   border-radius: 50%;
-  animation: loadingProgress 1.5s forwards ease-in-out infinite;
+  animation: loadingDashed 1.5s linear infinite;
 }
